@@ -1,0 +1,36 @@
+<!-- Right Sidebar -->
+
+<div class="right-bar" (clickOutside)="hide()" [exclude]="'.right-bar-toggle'">
+
+  <perfect-scrollbar class="h-100">
+    <div class="rightbar-title px-3 py-4">
+      <a href="javascript:void(0);" class="right-bar-toggle float-right" (click)="hide();">
+        <i class="mdi mdi-close noti-icon"></i>
+      </a>
+      <h5 class="m-0">Settings</h5>
+    </div>
+    <hr class="mt-0">
+    <h6 class="text-center mb-0">Choose Layouts</h6>
+    <div class="p-4">
+      <div class="mb-2">
+        <a href="//skote-v-light.angular.themesbrand.com/" target="_blank">
+          <img src="assets/images/layouts/layout-1.jpg" class="img-fluid img-thumbnail" alt="">
+        </a>
+      </div>
+      <div class="mb-2">
+        <a href="//skote-v-dark.angular.themesbrand.com/" target="_blank">
+          <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="">
+        </a>
+      </div>
+      <div class="mb-2">
+        <a href="//skote-v-rtl.angular.themesbrand.com/" target="_blank">
+          <img src="assets/images/layouts/layout-3.jpg" class="img-fluid img-thumbnail" alt="">
+        </a>
+      </div>
+    </div>
+  </perfect-scrollbar>
+</div>
+<!-- /Right-bar -->
+
+<!-- Right bar overlay-->
+<div class="rightbar-overlay"></div>

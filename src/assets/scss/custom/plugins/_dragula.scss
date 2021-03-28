@@ -1,0 +1,19 @@
+/* ==============
+  Druafula
+===================*/
+
+.task-box {
+  border: 1px solid $gray-300;
+}
+
+.task-placeholder {
+  border: 1px dashed $gray-300 !important;
+  background-color: $card-bg !important;
+  padding: 20px;
+  box-shadow: none !important;
+}
+
+.gu-transit {
+  border: 1px dashed $gray-600 !important;
+  background-color: $gray-200 !important;
+}
